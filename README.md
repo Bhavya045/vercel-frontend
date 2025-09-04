@@ -157,11 +157,6 @@ Deploy the `build/` folder on **Vercel/Render**.
 * GitHub: [@Bhavya045](https://drive.google.com/file/d/1YFW8VNENoYcBcyD9kytrRBmtrjavgr3n/view?usp=drivesdk)
 
 
----
-
-⭐ If you like this project, please give it a **star** on GitHub!
-
-```
 
  
 
