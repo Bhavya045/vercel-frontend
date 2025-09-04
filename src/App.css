@@ -1,0 +1,175 @@
+/* Import a modern font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  background: linear-gradient(135deg, #f9fafb, #eef2ff);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1f2937; /* better text contrast */
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+h1, h3 {
+  color: #111827;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin: 8px 0;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #6366f1; /* indigo focus */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+textarea {
+  min-height: 90px;
+}
+
+.form-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.section, .skill-section {
+  border: 1px solid #e5e7eb;
+  padding: 16px;
+  border-radius: 12px;
+  margin: 12px 0;
+  background: #f9fafb;
+  transition: all 0.2s ease;
+}
+
+.section:hover, .skill-section:hover {
+  background: #f3f4f6;
+}
+
+/* -------- BUTTONS -------- */
+.btn {
+  padding: 12px 20px;
+  min-width: 120px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.25s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Edit Button */
+.btn.edit {
+  background: #4b5563; /* Slate */
+  color: #fff;
+}
+.btn.edit:hover {
+  background: #374151;
+}
+
+/* Save Button */
+.btn.save {
+  background: #6366f1; /* Indigo */
+  color: #fff;
+}
+.btn.save:hover {
+  background: #4f46e5;
+}
+
+/* Add Button */
+.btn.add {
+  background: #2563eb; /* Blue */
+  color: #fff;
+}
+.btn.add:hover {
+  background: #1d4ed8;
+}
+
+/* Delete Button (blue instead of red) */
+.btn.delete {
+  background: #3b82f6; /* Blue */
+  color: #fff;
+}
+.btn.delete:hover {
+  background: #1e40af;
+}
+
+/* Hover + Shadow Effects */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  opacity: 0.95;
+}
+
+/* Input row spacing */
+.input-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Tags (Skills) */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tag {
+  background: linear-gradient(135deg, #6366f1, #4f46e5); /* Indigo gradient */
+  color: #fff;
+  padding: 7px 14px;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(79, 70, 229, 0.25);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.tag:hover {
+  transform: scale(1.08);
+  background: linear-gradient(135deg, #4f46e5, #4338ca);
+  box-shadow: 0 4px 12px rgba(67, 56, 202, 0.35);
+}
+
+.view-section p {
+  margin: 8px 0;
+}
