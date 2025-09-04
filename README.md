@@ -165,5 +165,4 @@ Deploy the `build/` folder on **Vercel/Render**.
 
  
 
-Would you like me to also **create a badge section** (for React, Node, MongoDB, Netlify, Render, etc.) at the top to make it look more professional and eye-catching?
-```
+
