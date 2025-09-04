@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 
-const API_URL = "http://localhost:4000";
+const API_URL = process.env.REACT_APP_URL;
 
 export default function Portfolio() {
   const [isEditing, setIsEditing] = useState(false);
